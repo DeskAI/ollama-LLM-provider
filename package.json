@@ -1,0 +1,22 @@
+{
+  "name": "ollama-provider",
+  "version": "1.0.0",
+  "description": "DeskAI plugin template",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [
+    "DeskAI",
+    "LLM"
+  ],
+  "author": "DeskAI",
+  "license": "MIT",
+  "dependencies": {
+    "@deskai/api": "^1.0.2"
+  },
+  "devDependencies": {
+    "vite": "^5.2.12",
+    "@types/node": "^20.14.2"
+  }
+}

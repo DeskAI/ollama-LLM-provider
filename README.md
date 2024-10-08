@@ -1,0 +1,1 @@
+# DeskAI Plugin Template

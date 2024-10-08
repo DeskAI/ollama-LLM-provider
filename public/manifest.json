@@ -1,0 +1,10 @@
+{
+  "id": "ollama-llm-provider",
+  "name": "ollama LLM Provider",
+  "version": "1.0.0",
+  "description": "Plugin for integrating ollama.",
+  "author": "DeskAI",
+  "authorUrl": "https://deskai.app",
+  "fundingUrl": "https://deskai.app/pricing",
+  "worker": "index.js"
+}
