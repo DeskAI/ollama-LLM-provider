@@ -69,6 +69,7 @@ export default class {
       async chat(content: any[], options: any) {
         const baseURL = `http://localhost:11434/api/chat`;
         const stream = options?.stream ?? true;
+        const model = options?.model || this._model;
         content.forEach((item) => {
           if (item.tool_calls) {
             item.tool_calls.forEach((tool) => {
@@ -123,7 +124,8 @@ export default class {
                   let current = decoder.decode(value, { stream: true });
                   if (done) {
                     try {
-                      const content = extractToolCall(chunks.content) || chunks.content
+                      const content =
+                        extractToolCall(chunks.content) || chunks.content;
                       const tryTool = JSON.parse(content);
                       if (
                         tryTool.name &&
@@ -178,7 +180,7 @@ export default class {
             status: 200,
             statusText: "OK",
             headers: {
-              model: this._model,
+              model: model,
               "Content-Type": stream ? "text/event-stream" : "application/json",
             },
           }

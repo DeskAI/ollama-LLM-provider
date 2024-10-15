@@ -6,5 +6,5 @@
   "author": "DeskAI",
   "authorUrl": "https://deskai.app",
   "fundingUrl": "https://deskai.app/pricing",
-  "worker": "dust/index.js"
+  "worker": "dist/index.js"
 }
