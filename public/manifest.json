@@ -1,7 +1,7 @@
 {
   "id": "Ollama-LLM-Provider",
   "name": "Ollama LLM Provider",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Plugin for integrating ollama.",
   "author": "DeskAI",
   "icon": "icon.png",
