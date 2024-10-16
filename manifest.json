@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "description": "Plugin for integrating ollama.",
   "author": "DeskAI",
-  "icon": "icon.png",
+  "icon": "dist/icon.png",
   "authorUrl": "https://deskai.app",
   "fundingUrl": "https://deskai.app/pricing",
   "worker": "dist/index.js"
